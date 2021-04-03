@@ -1,0 +1,56 @@
+body{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+/*para centrar main es 0 auto y max width es el espacio*/
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+/*header y main*/
+
+header{
+    background-color: #ddd;
+    text-align: center;
+    line-height: 2; /*espacio entre lineas*/
+    margin-bottom: 55px;
+}
+
+.altura{
+    margin-bottom: 32px;
+}
+
+h1, h2{
+    background-color: #bfbfbf;
+    text-transform: uppercase; /*para mayuscula*/
+    letter-spacing: 8px;
+}
+h1{
+    color: #1f497d;
+    word-spacing: 30px;
+    
+}
+
+
+h2{
+    color:#632423;
+    font-size:18px;
+}
+span{
+    text-transform: uppercase;
+}
+.item-detail{
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1F497D;
+    text-align: center;
+    margin-top: 55px;
+    font-size: 24px;
+    color: white;
+}
+
+.ajustar{
+    max-height: 20px ;
+}
