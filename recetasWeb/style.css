@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
 body{
-    margin-right: 58%;
+    margin-right: 55%;
     font-family: 'Inter', sans-serif;
 }
 
@@ -21,12 +21,11 @@ ul li{
     list-style-type: none;
 }
 
-header{
+header section{
     background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)),  url("lemon-pie.png");
     background-repeat: no-repeat;
     background-size: 100%;
     color:white;
-    opacity: 1;
     background-position: bottom;
 }
 
