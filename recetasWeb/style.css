@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+body{
+    margin-right: 58%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+nav{
+    font-size:15px;
+    margin-right:80%;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)),  url("lemon-pie.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+    opacity: 1;
+    background-position: bottom;
+}
+
+main{
+    color:rgb(48, 47, 47)
+}
+
+.margenIzquierdo{
+    padding-left: 0%;
+}
+
+h1, h2, h3{
+    font-weight: bolder
+}
+
+h1{
+    font-size: 35px;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.letra{
+
+    font-size:14px
+}
+
+main li{
+    font-size: 14px;
+}
+
+.aNaranja{
+    color:rgb(255, 115, 0);
+    text-decoration: underline;
+}
+
