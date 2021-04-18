@@ -102,7 +102,7 @@ div.card a{
 .icono{
     position:fixed;
     left:1020px;
-    bottom: 38px;
+    bottom: 0px; 
     height: 40px;
     width: 40px;
     font-size: 30px;
