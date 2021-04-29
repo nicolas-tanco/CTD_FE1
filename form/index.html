@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <base target='_blank'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Super Heroes</title>
+</head>
+
+<body>
+    <div id="descuento">
+        <p class="qq">Descuentos 20%</p>
+    </div>
+    <header><img src="./OBJECTS.svg">
+        <h1>Card Superheroes</h1>
+    </header>
+    <nav>
+        <a href="">Contacto</a>
+        <a href="https://nicolas-tanco.github.io/CTD_FE1/superheroes_registro/">Registrarme</a>
+        <a href="https://nicolas-tanco.github.io/CTD_FE1/superheroesLogIn/">Ingresar</a>
+    </nav>
+    <main>
+        <section>
+            <form action="/nose" method="POST">
+                <h2>Añadi tu super!</h2>
+                <p>Agrega tu personaje favorito completando las opciones.</p>
+                <fieldset class="margenField">
+                    <label for="nombre" class="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                    <input type="textarea" placeholder="Descripcion" name="descripcion" id="textarea">
+                </fieldset>
+                <fieldset class="chack">
+                    <label for="especie" class="especie1">Especie</label>
+                    <select name="especie" id="especie">
+                        <option value="humano">Humano</option>
+                        <option value="reptiliano">Reptiliano</option>
+                    </select>
+                    <label for="imagen" class="agregarFoto">Agregar foto</label>
+                    <input type="file" name="imagen" id="imagen">
+                    <label >Poderes</label>
+                    
+                    <label for="volar">
+                        <input type="checkbox" name="poderes" value="Volar" id="volar">Volar</label>
+                   
+                    <label for="iq"><input type="checkbox" name="poderes" value="superinteligencia" id="iq">Superinteligencia</label>
+                   
+                    <label for="vista"><input type="checkbox" name="poderes" value="Vista de rayo laser" id="vista">Vista de rayo laser</label>
+                   
+                    <label for="billetera" ><input type="checkbox" name="poderes" values="billetera" id="billetera">Billetera gorda</label>
+                    <div class="linea"></div>
+                    <div><p>Tipo de personaje</p></div>
+                   
+                    <label for="heroe">  <input type="radio" name="tipo" value="heroe" id="heroe">Heroe/Heroina</label>
+                   
+                    <label for="villano"> <input type="radio" name="tipo" value="villano" id="villano">Villano/Villana</label>
+                </fieldset>
+                <input type="button" value="Añadir" class="boton">
+            </form>
+
+        </section>
+    </main>
+    <footer><p class="footer">Todos los derechos reservados a Front End 1</p></footer>
+</body>
+</html>
