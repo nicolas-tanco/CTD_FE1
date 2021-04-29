@@ -12,11 +12,17 @@
 #descuento{
     font-size: 15px;
     background-color:rgba(28, 209, 176, 1);
-    
+    height: 23px;
+
 }
 .qq{
-    padding: 2px 20px 3px
+    position: absolute;
+     top: -15px;
+     left: 20px;
+     color: black;
+
 }
+
 
 header{
     background: rgba(0, 102, 159, 1);
@@ -209,5 +215,14 @@ div p{
 
     margin-top: 12px;
 
+}
+
+input[type="button"]:hover{
+    background-color: rgba(0, 29, 45, 1);
+    color: white;
+}
+
+.margenField input:focus{
+    background-color: rgba(175, 249, 254, 1);
 }
 
