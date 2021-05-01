@@ -138,17 +138,19 @@ Cambiamos el fondo cuando el usuario pase el mouse
     animation-name: spinner;
     animation-duration: 500ms;
     animation-iteration-count: infinite;
-    animation-direction:initial;
+    animation-direction: initial;
     animation-delay: 0s;
-    
+    animation-timing-function: linear;
  }
  @keyframes spinner{ 
-     0% {transform: rotate(0deg);}
-    100% { transform: rotate(360deg);}
+     0% {transform: rotate(360deg);};
+  
+
+    
 }
     
 
- /* Ejemplo animaciones  /* 1turn; -webkit-transform:rotate(360) 1turn; -moz-transform:rotate(360) 1turn; -ms-transform:rotate(360) 1turn; -o-transform:rotate(360) 1turn; }
+
 .box{
     width: 100px;
     height: 100px;
@@ -162,4 +164,3 @@ Cambiamos el fondo cuando el usuario pase el mouse
     50%{ transform:rotate(-50deg) ; -webkit-transform:rotate(-50deg) ; -moz-transform:rotate(-50deg) ; -ms-transform:rotate(-50deg) ; -o-transform:rotate(-50deg) ; }
     100%{ transform:rotate(80deg) ; -webkit-transform:rotate(80deg) ; -moz-transform:rotate(80deg) ; -ms-transform:rotate(80deg) ; -o-transform:rotate(80deg) ; }
 }
-*/
